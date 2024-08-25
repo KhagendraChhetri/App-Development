@@ -1,0 +1,124 @@
+<!-- File: res/layout/fragment_edit_destination.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFAFA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Name Field -->
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:backgroundTint="#FFB300"
+                android:text="@string/add_destination"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/second"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/baseline_perm_contact_calendar_24"
+                android:drawablePadding="10dp"
+                android:text="Name"
+                android:textAllCaps="false"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                />
+
+            <!-- Description Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:drawableLeft="@drawable/baseline_fact_check_24"
+                android:drawablePadding="10dp"
+                android:textAppearance="?attr/textAppearanceListItem" />
+            <EditText
+                android:id="@+id/descriptionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Description"
+                android:inputType="textMultiLine"
+                android:minHeight="150dp"
+                />
+
+            <!-- Image URL Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image URL"
+                android:drawableLeft="@drawable/baseline_perm_media_24"
+                android:drawablePadding="10dp"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <EditText
+                android:id="@+id/imageURLEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Image URL" />
+
+            <!-- Location Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:drawableLeft="@drawable/baseline_edit_location_24"
+                android:drawablePadding="10dp"
+                android:textAppearance="?attr/textAppearanceListItem" />
+            <EditText
+                android:id="@+id/locationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Location"
+                />
+
+            <!-- Price Field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:drawableLeft="@drawable/baseline_currency_exchange_24"
+                android:drawablePadding="10dp"
+                android:textAppearance="?attr/textAppearanceListItem" />
+            <EditText
+                android:id="@+id/priceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price"
+                android:inputType="numberDecimal"
+                />
+
+            <!-- Update Button -->
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Update Destination"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

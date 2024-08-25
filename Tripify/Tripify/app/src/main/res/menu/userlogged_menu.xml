@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_destination"
+            android:title="@string/destination"
+            android:icon="@drawable/baseline_perm_media_24"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/edit_profile"
+            android:icon="@drawable/profile"/>
+
+
+    </group>
+
+    <item android:title="@string/tripify">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_booking"
+                    android:title="@string/my_ticket"
+                    android:icon="@drawable/ticket"/>
+                <item
+                    android:id="@+id/nav_favourite"
+                    android:title="@string/favourite"
+                    android:icon="@drawable/baseline_favorite_24"/>
+                <item
+                    android:id="@+id/nav_budgetCalculator"
+                    android:title="@string/budget_calculator"
+                    android:icon="@drawable/baseline_calendar_month_24"/>
+                <item
+                    android:id="@+id/nav_currencyConverter"
+                    android:title="@string/currency_converter"
+                    android:icon="@drawable/baseline_currency_exchange_24"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/more">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:title="@string/contact_us"
+                    android:icon="@android:drawable/ic_dialog_info"/>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:title="@string/language_settings"
+                    android:icon="@drawable/settings"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/logout"/>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:title="@string/exit"
+                    android:icon="@drawable/exit"/>
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>

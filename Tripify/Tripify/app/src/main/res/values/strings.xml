@@ -1,0 +1,148 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">575750847722-6dat2lgmdtahqicoails6sndlqf2qnhr.apps.googleusercontent.com</string>
+    <string name="app_name" translatable="false">Tripify</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="logo">logo</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="full_name">Full Name</string>
+    <string name="new_password">new password</string>
+    <string name="update">Update</string>
+    <string name="phone">Phone number</string>
+    <string name="postcode">Postcode</string>
+    <string name="address">Street Address</string>
+    <string name="welcome">Welcome</string>
+    <string name="defuser">user</string>
+    <string name="defemail">email</string>
+    <string name="destination">Destination</string>
+    <string name="profile">Profile</string>
+    <string name="tripify">Tripify</string>
+    <string name="bookings">Bookings</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="destination_name">Destination Name</string>
+    <string name="destination_DESC">description</string>
+    <string name="price">Price</string>
+    <string name="dollar" translatable="false">$</string>
+    <string name="count">count</string>
+    <string name="confirm">confirm</string>
+    <string name="userdetails" translatable="false">User Info Here</string>
+    <string name="booking_confirmation">Booking Confirmation</string>
+    <string name="user_details">User Details</string>
+    <string name="language">language</string>
+    <string name="settings">settings</string>
+    <string name="language_settings" translatable="false">"Language Settings"</string>
+    <string name="english" translatable="false">English</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="french" translatable="false">French</string>
+    <string name="settingss">Settings</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="register_here">Register Here!!</string>
+    <string name="name_tour">Name Tour</string>
+    <string name="login_here">Already have an account? login here</string>
+    <string name="copyright">Copyright © 2024 Tripify, Inc. All rights reserved.</string>
+    <string name="ticket_details">Ticket Details</string>
+    <string name="checkout">Confirm Your Booking</string>
+    <string name="secure_checkout">Secure Checkout</string>
+    <string name="checkout_des">By confirming you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="security_booking">Your security is important to us. We use advanced encryption and security protocols to ensure that your personal and payment information is protected.</string>
+    <string name="your_booking_is_confirmed">Your Booking is Confirmed!!</string>
+    <string name="policy_booking">Book with confidence: our flexible booking policy allows free cancellations up to 24 hours before your reservation date.</string>
+    <string name="booking_policy">Booking Policy</string>
+    <string name="verify">Your email is not verified. Please check your inbox or spam folders for the verification email, or resend the verification email to access the dashboard.</string>
+    <string name="resend_email">Resend Email</string>
+    <string name="verifyuser">Error!! User not verified. Check your email to verify.</string>
+    <string name="resend_verification_link">Resend Verification Link</string>
+    <string name="verified">Verified</string>
+    <string name="if_you_have_already_verrified_click_the_button_below_to_restart_the_application_sometime_the_verification_process_may_take_up_to_5_minutes_thank_you" translatable="false">If you have already verrified click the button below to restart the application. Verification may take up to 5 minutes. Thank you!</string>
+    <string name="verify_me">Verify</string>
+    <string name="close">Close</string>
+    <string name="scan_me">Scan Me</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_description">Tripify makes travel easy and enjoyable with personalized itineraries, real-time alerts, and exclusive deals. Plan, book, and explore your next adventure effortlessly with our app. Have questions or need support? Reach out to us anytime!</string>
+    <string name="adderss">Waterside Campus, University Dr, Northampton NN1 5PH</string>
+    <string name="more">More</string>
+    <string name="budget_calculator">Budget Calculator</string>
+    <string name="api_key" translatable="false">2a9bc8a409f9a023470304cb</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="please_enter_the_amount">Please Enter the amount</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="convert">Convert</string>
+    <string name="rate_1_00">Rate: 1.00</string>
+    <string name="result_will_appear_here">Result will appear here</string>
+    <string name="my_ticket">My Ticket</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="travel_management">Travel Management</string>
+    <string name="destination_list">Destination List</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="add_destination">Add Destination</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="image_url">Image URL</string>
+    <string name="enter_image_url">Enter Image URL</string>
+    <string name="location">Location</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="google_maps_api_key" translatable="false">AIzaSyB6aLgrlME3PJCJbv6Ak5WE7oh9YxwcRsc</string>
+    <string name="places_api_key" translatable="false">AIzaSyAvByJIxfpSRI5zLw9EclgleieY7gfhcpk</string>
+    <string name="favourite">Favourite</string>
+    <string name="scan">Scan</string>
+    <string name="scan_tickets">Scan Tickets</string>
+    <string name="qr_code_ticket_scanner">QR Code Ticket Scanner</string>
+    <string name="align_the_qr_code_within_the_scanning_area">Align the QR code within the scanning area.</string>
+    <string name="no_attractions_found_for_this_destination">No attractions found for this destination.</string>
+    <string name="price_per_ticket">Price per Ticket =</string>
+    <string name="travel_g" translatable="false">Travel Documents:\n\n- Ensure your passport is valid and obtain any necessary visas.\n\nHealth and Safety:\n\n- Purchase travel insurance and be aware of nearby hospitals and emergency contacts.\n\nBudget and Currency:\n\n- Familiarize yourself with currency exchange rates and set a travel budget.</string>
+    <string name="russian" translatable="false">russian</string>
+    <string name="arabic" translatable="false">arabic</string>
+    <string name="hindi" translatable="false">hindi</string>
+    <string name="bengali" translatable="false">bengali</string>
+    <string name="mandarin" translatable="false">mandarin</string>
+    <string name="portuguese" translatable="false">portuguese</string>
+    <string name="tickets">Tickets</string>
+    <string name="ticket_management">Ticket Management</string>
+    <string name="destination_management">Destination Management</string>
+    <string name="tripify_analytics">Tripify Analytics</string>
+    <string name="destination_icon">Destination Icon</string>
+    <string name="total_destinations">Total Destinations</string>
+    <string name="users_icon">Users Icon</string>
+    <string name="total_users">Total Users</string>
+    <string name="bookings_icon">Bookings Icon</string>
+    <string name="total_bookings_this_month">Total Bookings (This Month)</string>
+    <string name="booking_amount_icon">Booking Amount Icon</string>
+    <string name="total_booking_amount_this_month">Total Booking Amount (This Month)</string>
+    <string name="tickets_icon">Tickets Icon</string>
+    <string name="total_tickets_this_month">Total Tickets (This Month)</string>
+    <string name="attractions">Attractions</string>
+    <string name="travel_guide">Travel Guide</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="lang">Select a language to update the app\'s interface. Changes will apply instantly.</string>
+    <string-array name="currencies">
+        <item>USD</item> <!-- US Dollar -->
+        <item>EUR</item> <!-- Euro -->
+        <item>GBP</item> <!-- British Pound -->
+        <item>JPY</item> <!-- Japanese Yen -->
+        <item>CAD</item> <!-- Canadian Dollar -->
+        <item>AUD</item> <!-- Australian Dollar -->
+        <item>CHF</item> <!-- Swiss Franc -->
+        <item>CNY</item> <!-- Chinese Yuan -->
+        <item>SEK</item> <!-- Swedish Krona -->
+        <item>NZD</item> <!-- New Zealand Dollar -->
+        <!-- Add new currencies below -->
+        <item>INR</item> <!-- Indian Rupee -->
+        <item>BRL</item> <!-- Brazilian Real -->
+        <item>RUB</item> <!-- Russian Ruble -->
+        <item>ZAR</item> <!-- South African Rand -->
+        <item>SGD</item> <!-- Singapore Dollar -->
+    </string-array>
+</resources>

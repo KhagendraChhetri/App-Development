@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_background"
+            android:backgroundTint="#FFB300"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/budget_calculator"
+            android:textColor="@color/second"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of People"
+            android:paddingTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextNoOfPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of people"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flight Cost"
+            android:paddingTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextFlights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter flight cost"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accommodation Cost per Day"
+            android:paddingTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextAccommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter accommodation cost per day"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meals Cost"
+            android:paddingTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextMeals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter meals cost"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activities Cost"
+            android:paddingTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter activities cost"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miscellaneous Costs"
+            android:paddingTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextMiscellaneous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter miscellaneous costs"
+            android:inputType="numberDecimal"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Total"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/textViewTotalCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Cost: $0.00"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewPerPersonCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost per Person: $0.00"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewPerDayCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost per Day per Person: $0.00"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

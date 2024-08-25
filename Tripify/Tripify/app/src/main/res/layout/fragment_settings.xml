@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    tools:context=".setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Header Title for Settings -->
+        <TextView
+            android:id="@+id/textViewHeaderxx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_background"
+            android:backgroundTint="#FFB300"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/language_settings"
+            android:textColor="@color/second"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <!-- Language Buttons in a Grid Layout -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:columnCount="3"
+            android:padding="20dp">
+
+            <!-- English -->
+            <ImageButton
+                android:id="@+id/buttonEnglish"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/english"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/english" />
+
+            <!-- Spanish -->
+            <ImageButton
+                android:id="@+id/buttonSpanish"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/spanish"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spanish" />
+
+            <!-- French -->
+            <ImageButton
+                android:id="@+id/buttonFrench"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/french"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/french" />
+
+            <!-- Russian -->
+            <ImageButton
+                android:id="@+id/buttonRussian"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/russian"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/russia" />
+
+            <!-- Arabic -->
+            <ImageButton
+                android:id="@+id/buttonArabic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/arabic"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/arab" />
+
+            <ImageButton
+                android:id="@+id/buttonHindi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/hindi"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hindi" />
+
+            <!-- Bengali -->
+            <ImageButton
+                android:id="@+id/buttonBengali"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/bengali"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bengal" />
+
+            <ImageButton
+                android:id="@+id/buttonMandarin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/mandarin"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/china" />
+
+            <ImageButton
+                android:id="@+id/buttonPortuguese"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_background"
+                android:contentDescription="@string/portuguese"
+                android:padding="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/portugal" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/lang"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_dashboard"
+            android:title="@string/dashboard"
+            android:icon="@drawable/baseline_space_dashboard_24"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/profile"/>
+
+    </group>
+
+    <item android:title="@string/travel_management">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_ticket_manager"
+                    android:title="@string/ticket_details"
+                    android:icon="@drawable/ticket"/>
+                <item
+                    android:id="@+id/nav_destination_manager"
+                    android:title="@string/destination_list"
+                    android:icon="@drawable/baseline_fact_check_24"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/more">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_ticket_scanner"
+                    android:title="@string/scan_tickets"
+                    android:icon="@drawable/baseline_search_24"/>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:title="@string/language_settings"
+                    android:icon="@drawable/settings"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/logout"/>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:title="@string/exit"
+                    android:icon="@drawable/exit"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>
