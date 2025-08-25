@@ -9,11 +9,9 @@ An intuitive, all-in-one travel companion for discovering destinations, planning
 
 ## 📸 Screenshots
 
-*(Add your app screenshots here! Replace the placeholder links with your own images.)*
-
-| Onboarding | Home Screen | Destination Details |
+| Login Screen | Destinations | Admin Dashboard |
 | :---: | :---: | :---: |
-| <img src="https://placehold.co/200x400/png?text=App+Screenshot" width="200"> | <img src="https://placehold.co/200x400/png?text=App+Screenshot" width="200"> | <img src="https://placehold.co/200x400/png?text=App+Screenshot" width="200"> |
+| <img src="./screenshots/onboarding.jpg" width="200"> | <img src="./screenshots/destination details.jpg" width="200"> | <img src="./screenshots/admindashboard.jpg" width="200"> |
 
 ## ✨ Features
 
@@ -48,7 +46,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/your-username/tripify.git](https://github.com/your-username/tripify.git)
+    git clone [https://github.com/KhagendraChhetri/App-Development.git](https://github.com/KhagendraChhetri/App-Development.git)
     ```
 2.  **Open the project in Android Studio**
     -   Open Android Studio.
@@ -69,6 +67,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📧 Contact
 
-Khagendra Chhetri - [chetrikkhagendra96@gmail.com](mailto:your.email@example.com)
+Khagendra Chhetri - [chetrikkhagendra96@gmail.com](mailto:chetrikkhagendra96@gmail.com)
 
-Project Link: [(https://github.com/KhagendraChhetri/App-Development)]
+Project Link: [https://github.com/KhagendraChhetri/App-Development](https://github.com/KhagendraChhetri/App-Development)
