@@ -69,6 +69,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📧 Contact
 
-Khagendra Chhetri - [your.email@example.com](mailto:your.email@example.com)
+Khagendra Chhetri - [chetrikkhagendra96@gmail.com](mailto:your.email@example.com)
 
-Project Link: [https://github.com/your-username/tripify](https://github.com/your-username/tripify)
+Project Link: [(https://github.com/KhagendraChhetri/App-Development)]
