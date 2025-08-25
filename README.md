@@ -11,7 +11,7 @@ An intuitive, all-in-one travel companion for discovering destinations, planning
 
 | Login Screen | Destinations | Admin Dashboard |
 | :---: | :---: | :---: |
-| <img src="onboarding.jpg" width="200"> | <img src="./screenshots/destination details.jpg" width="200"> | <img src="./screenshots/admindashboard.jpg" width="200"> |
+| <img src="onboarding.jpg" width="200"> | <img src="destination details.jpg" width="200"> | <img src="admindashboard.jpg" width="200"> |
 
 ## ✨ Features
 
